@@ -1,0 +1,192 @@
+body{
+    background-color: #ddd;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    width: 40%;
+	margin: 50px auto 0px;
+	color: white;
+	background: #5F9EA0;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+#header-in-admin{
+    width: 60%;
+	margin: 50px auto 0px;
+	color: white;
+	background: #5F9EA0;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+
+form {
+	width: 40%;
+	margin: 0px auto 10px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+.input-group label {
+	display: block;
+	text-align: center;
+	margin: 3px;
+}
+
+#add-news-form {
+    width: 60%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+}
+.input-news-group {
+    margin: 10px 0px;
+}
+
+.input-news-group input {
+    border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-news-group label {
+	display: block;
+	text-align: center;
+	margin: 3px;
+}
+
+#news-textarea {
+    width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    margin: 4px;
+    background-color: #282828;
+    border: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+select {
+    background-color: transparent;
+    border: 1px solid #B0C4DE;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+  }
+
+.news-box{
+    position: relative;
+    margin: auto;
+    width: 840px;
+    padding: 20px;
+    margin-bottom: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.news-title{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+
+.news-date{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+
+.news-text{
+    border: 1px solid #282828;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.delete-form{
+    width:40px;
+    height:20px;
+    border:none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.delete-form button{
+    width:40px;
+    height:20px;
+    background-color:#fff;
+    border:none;
+    opacity:0.7;
+    color:#282828;
+    cursor:pointer;
+}
+
+.delete-form button:hover{
+    opacity: 1;
+}
+
+.add-comments-header{
+    width: 40%;
+	margin: 50px auto 0px;
+	color: white;
+	background: #5F9EA0;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+
+.comment-text-area{
+    width: 80%;
+    height: 80px;
+    border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.comment-box{
+    position: relative;
+    margin: auto;
+    width: 840px;
+    padding: 20px;
+    margin-bottom: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.comment-name, .comment-date, .comment-text{
+    font-family: Arial, Helvetica, sans-serif;
+}
